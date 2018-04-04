@@ -49,6 +49,10 @@ html, body {
 
 .toc-header {
   background-color: $nav-header;
+
+  span a {
+    color: $nav-text;
+  }
 }
 
 .toc-wrapper {
