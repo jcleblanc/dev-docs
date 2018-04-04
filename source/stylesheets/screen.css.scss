@@ -47,6 +47,10 @@ html, body {
   width: 20px;
 }
 
+.toc-header {
+  background-color: $nav-header;
+}
+
 .toc-wrapper {
   transition: left 0.3s ease-in-out;
 
@@ -54,7 +58,7 @@ html, body {
   overflow-x: hidden;
   position: fixed;
   z-index: 30;
-  top: 0;
+  top: 60px;
   left: 0;
   bottom: 0;
   width: $nav-width;
