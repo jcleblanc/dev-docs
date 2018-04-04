@@ -48,10 +48,29 @@ html, body {
 }
 
 .toc-header {
+  position:fixed;
+  width: 100%;
+  z-index: 1000;
   background-color: $nav-header;
+  padding: 10px 30px;
+  border-bottom: 1px solid $nav-bg;
+
+  // top left logo
+  .logo {
+    float: left;
+    width: 67px;
+    margin: $logo-margin;
+  }
+
+  span {
+    float: left;
+    margin: 15px 0 0 30px;
+  }
 
   span a {
     color: $nav-text;
+    font-size: 16px;
+    text-decoration: none;
   }
 }
 
@@ -62,7 +81,7 @@ html, body {
   overflow-x: hidden;
   position: fixed;
   z-index: 30;
-  top: 60px;
+  top: 66px;
   left: 0;
   bottom: 0;
   width: $nav-width;
@@ -77,13 +96,6 @@ html, body {
       padding-top: 0.5em;
       padding-bottom: 0.5em;
     }
-  }
-
-  // This is the logo at the top of the ToC
-  .logo {
-    display: block;
-    max-width: 100%;
-    margin-bottom: $logo-margin;
   }
 
   &>.search {
@@ -258,10 +270,10 @@ html, body {
 .page-wrapper {
   margin-left: $nav-width;
   position: relative;
+  top: 66px;
   z-index: 10;
   background-color: $main-bg;
   min-height: 100%;
-
   padding-bottom: 1px; // prevent margin overflow
 
   // The dark box is what gives the code samples their dark background.
