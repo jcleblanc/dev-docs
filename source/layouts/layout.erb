@@ -44,11 +44,16 @@ under the License.
   </head>
 
   <body class="<%= page_classes %>" data-languages="<%=h language_tabs.map{ |lang| lang.is_a?(Hash) ? lang.keys.first : lang }.to_json %>">
-    <% if current_page.data.toc_headers %>
+    <% if current_page.data.toc_headers_left %>
       <div class="toc-header">
         <%= image_tag "logo.png", class: 'logo' %>
-        <% current_page.data.toc_headers.each do |header| %>
+        <% current_page.data.toc_headers_left.each do |header| %>
           <span><%= header %></span>
+        <% end %>
+        <% if current_page.data.toc_headers_right %>
+          <% current_page.data.toc_headers_right.each do |header| %>
+            <%= header %>
+          <% end %>
         <% end %>
       </div>
     <% end %>

@@ -1,5 +1,5 @@
 ---
-title: API Reference
+title: Box API Reference
 
 language_tabs: # must be one of https://git.io/vQNgJ
   - shell: Shell
@@ -7,19 +7,20 @@ language_tabs: # must be one of https://git.io/vQNgJ
   - python: Python
   - javascript: Node
 
-toc_headers:
+toc_headers_left:
   - <a href='#'>Quickstart</a>
   - <a href='#'>Guides</a>
   - <a href='#'>API Reference</a>
 
+toc_headers_right: 
+  - <a class='header-btn' href='https://account.box.com/developers/services'>Dashboard</a>
+
 toc_footers:
-  - <a href='#'>Sign Up for a Developer Key</a>
-  - <a href='https://github.com/lord/slate'>Documentation Powered by Slate</a>
+  - <a href='https://account.box.com/developers/services'>Sign Up for a Developer Key</a>
 
 includes:
   - errors
   - api/test
-  - api/test2
 
 search: true
 ---
