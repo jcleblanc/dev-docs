@@ -1,22 +1,3 @@
----
-title: API Reference
-
-language_tabs: # must be one of https://git.io/vQNgJ
-  - shell: Shell
-  - ruby: Ruby
-  - python: Python
-  - javascript: Node
-
-toc_footers:
-  - <a href='#'>Sign Up for a Developer Key</a>
-  - <a href='https://github.com/lord/slate'>Documentation Powered by Slate</a>
-
-includes:
-  - errors
-
-search: true
----
-
 # Introduction
 
 Welcome to the Kittn API! You can use our API to access Kittn API endpoints, which can get information on various cats, kittens, and breeds in our database.

@@ -19,9 +19,10 @@ toc_footers:
   - <a href='https://account.box.com/developers/services'>Sign Up for a Developer Key</a>
 
 includes:
-  - errors
+  - basics_overview
   - api/test
-
+  - errors
+  
 search: true
 ---
 
